@@ -116,7 +116,7 @@ const BlogList = () => {
                 {e.type}
               </h1>
               <h1>
-                <span className="text-gray-500">Year: </span>
+                <span className="text-gray-500">Status: </span>
                 {e.status}
               </h1>
             </div>
