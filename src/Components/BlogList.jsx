@@ -50,8 +50,8 @@ const BlogList = () => {
   return (
     <div>
     <div className="searchDiv m-3 grid gp-10 bg-gray-300 rounded-[10px] p-[3rem]">
-      <div className="secDiv flex items-center gap-10 justify-center">
-        <div className="singleSearch flex items-center gap-2">
+      <div className="secDiv flex items-center gap-10 justify-center flex-col">
+        <div className="singleSearch flex items-center gap-2 ">
           <lable htmlFor="Status" className="text-[#808080] font-semibold">
             Status:
           </lable>
